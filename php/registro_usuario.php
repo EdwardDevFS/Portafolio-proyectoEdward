@@ -11,7 +11,7 @@
         $query = "INSERT INTO usuarios(nombre_completo, correo, usuario, clave) VALUES ('$nombre_completo','$correo','$usuario','$clave')";
         $resultado = mysqli_query($conexion, $query);
         if($resultado){
-            header("location: ../principal.php");
+            header("location: ../index.php");
         }
         else{
             header("location: ../error.php");

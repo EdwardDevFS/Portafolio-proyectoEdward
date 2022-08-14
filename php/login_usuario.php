@@ -11,7 +11,7 @@
         $resultado = mysqli_query($conexion, $query);
         $filas = mysqli_num_rows($resultado);
         if($filas>0){
-            header("location: ../principal.php"); 
+            header("location: ../index.php"); 
         }
         else{
             header("location: ../error_credenciales.php");

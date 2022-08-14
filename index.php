@@ -24,7 +24,7 @@
                 <ul class="menu spread">
                     <a href="#sobre">Sobre mí</a>
                     <a href="#portafolio">Portafolio</a>
-                    <a href="#contactanos">Contacto</a>
+                    <a href="principal.php">REGISTRATE</a>
                     <a href="index.php" class="active">SALIR</a>
                 </ul>
 
